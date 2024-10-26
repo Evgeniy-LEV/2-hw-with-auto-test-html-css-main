@@ -73,20 +73,20 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url("./assets/images/solar_map-arrow-up-bold.png");
-    padding-left: 20px;
+    padding: 0px 20px;
     margin-top: 25px;
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
     margin-top: 25px;
 }
 
 .label {
     font-weight: 475;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .text-field {
@@ -95,10 +95,12 @@ select {
     width: 330px;
     height: 36px;
     background: rgba(255, 255, 255, 0);
+    font-size: 16px;
 }
 
 :placeholder-shown {
     color: rgba(48, 48, 48, 0.2);
+    padding-left: 12px;
 }
 
 .btn {
@@ -120,6 +122,7 @@ table {
     border-collapse: collapse;
     width: 300px;
     height: 196px;
+    font-size: 14px;
 }
 
 tr {
@@ -135,6 +138,7 @@ th {
     border-collapse: collapse;
     font-weight: 700;
     font-size: 14px;
+    padding: 12px 15px;
     }
 
 td {
@@ -142,13 +146,14 @@ td {
     border-collapse: collapse;
     font-weight: 400;
     font-size: 14px;
+    padding: 12px 15px;
 }
 
 footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding: 27px 0 27px 0;
+    padding: 26px 0px;
 }
 
 .footer-link {
